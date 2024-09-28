@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Clock icon.png">
+    <title>Karya</title>
+</head>
+<body>
+    <div class="container">
+            <img src="Clock icon.png" class="clock">
+        <div class="to-do">
+            <div class="todo-header">
+                <h2>To-do List</h2><img src="Task list.png">
+            </div>
+            <div class="row">
+                <input type="text" id="input_box" placeholder="Add your Task">
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <ul id="list-container">
+
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
