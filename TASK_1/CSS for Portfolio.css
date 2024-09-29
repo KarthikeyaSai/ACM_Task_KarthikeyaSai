@@ -74,6 +74,8 @@
    font-family: 'Raleway', sans-serif;
    letter-spacing: 5px;
    font-weight: bold;
+   margin: 20px;
+
  }
  a{
    text-decoration: none;
@@ -187,10 +189,6 @@ ul {
    border-radius: 5px;
 }
 
- .footer {
-   margin: 20px;
- }
-
  hr {
    border-style:none;
    width: 5%;
@@ -207,6 +205,20 @@ ul {
 html {
    scroll-behavior: smooth;
 }
+.footer-icons {
+   width: 35px;
+   transition: width 0.3s;
+}
+.footer-icons:hover {
+   width: 40px;
+   transform: translate3d(3px);
+}
+.bottom-container {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
 
 /* CAROUSEL_STYLE */
 .project-slider {
